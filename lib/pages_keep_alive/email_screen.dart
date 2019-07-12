@@ -240,44 +240,8 @@ class _EmailScreenState extends State<EmailScreen>
                                         fontSize: 18,
                                         fontWeight: FontWeight.bold,
                                         color: Color.fromRGBO(0, 0, 0, .26))),
-                                Icon(Icons.brightness_1,
-                                    size: 4, color: Colors.transparent),
-                              ],
-                            ),
-                          ),
-                        ],
-                      )),
-                  Expanded(
-                      flex: 1,
-                      child: Stack(
-                        alignment: Alignment.center,
-                        children: [
-                          Container(
-                            decoration: BoxDecoration(
-                                color: Colors.grey[200],
-                                borderRadius: BorderRadius.circular(2)),
-                            constraints: BoxConstraints(
-                              minWidth: 48,
-                              minHeight: 56,
-                            ),
-                          ),
-                          Positioned(
-                            top: 4,
-                            left: 8,
-                            child: Icon(Icons.beach_access,
-                                size: 16, color: Colors.lightGreen),
-                          ),
-                          Container(
-                            child: Column(
-                              children: <Widget>[
-                                Text("二",
-                                    style: TextStyle(
-                                        fontSize: 10,
-                                        color: Color.fromRGBO(0, 0, 0, .26))),
-                                Text("10",
-                                    style: TextStyle(
-                                        fontSize: 18,
-                                        fontWeight: FontWeight.bold)),
+                                Text("初四",style: TextStyle(
+                                    fontSize: 8, color: Color.fromRGBO(0, 0, 0, .26))),
                                 Icon(Icons.brightness_1,
                                     size: 4, color: Colors.transparent),
                               ],
@@ -299,11 +263,43 @@ class _EmailScreenState extends State<EmailScreen>
                               minHeight: 56,
                             ),
                           ),
-                          Positioned(
-                            top: 4,
-                            left: 8,
-                            child: Icon(Icons.beach_access,
-                                size: 16, color: Colors.lightGreen),
+                          Container(
+                            child: Column(
+                              children: <Widget>[
+                                Text("二",
+                                    style: TextStyle(
+                                        fontSize: 10,
+                                        color: Color.fromRGBO(0, 0, 0, .26))),
+                                Text("10",
+                                    style: TextStyle(
+                                        fontSize: 18,
+                                        color: Color.fromRGBO(0, 0, 0, .26),
+                                        fontWeight: FontWeight.bold)),
+                                Text("初五",style: TextStyle(
+                                    fontSize: 8, color: Color.fromRGBO(0, 0, 0, .26))),
+                                Icon(Icons.brightness_1,
+                                    size: 4, color: Colors.transparent),
+                              ],
+                            ),
+                          ),
+                        ],
+                      )),
+                  Expanded(
+                      flex: 1,
+                      child: Stack(
+                        alignment: Alignment.center,
+                        children: [
+                          Container(
+
+                            decoration: BoxDecoration(
+
+                                color: Colors.grey[200],
+//                                borderRadius: BorderRadius.circular(2)
+                            ),
+                            constraints: BoxConstraints(
+                              minWidth: 48,
+                              minHeight: 64,
+                            ),
                           ),
                           Container(
                             child: Column(
@@ -315,7 +311,9 @@ class _EmailScreenState extends State<EmailScreen>
                                     style: TextStyle(
                                         fontSize: 18,
                                         fontWeight: FontWeight.bold,
-                                        color: Colors.pink)),
+                                        color: Colors.black)),
+                                Text("法定节",style: TextStyle(
+                                    fontSize: 8, color: Color.fromRGBO(0, 0, 0, .26))),
                                 Icon(Icons.brightness_1,
                                     size: 4, color: Colors.transparent),
                               ],
@@ -339,7 +337,9 @@ class _EmailScreenState extends State<EmailScreen>
                                     style: TextStyle(
                                         fontSize: 18,
                                         fontWeight: FontWeight.bold,
-                                        color: Color.fromRGBO(0, 0, 0, .26))),
+                                        color: Color.fromRGBO(0, 0, 0, .54))),
+                                Text("初七",style: TextStyle(
+                                    fontSize: 8, color: Color.fromRGBO(0, 0, 0, .26))),
                                 Icon(Icons.brightness_1,
                                     size: 4, color: Colors.transparent),
                               ],
@@ -363,7 +363,9 @@ class _EmailScreenState extends State<EmailScreen>
                                     style: TextStyle(
                                         fontSize: 18,
                                         fontWeight: FontWeight.bold,
-                                        color: Color.fromRGBO(0, 0, 0, .26))),
+                                        color: Color.fromRGBO(0, 0, 0, .54))),
+                                Text("初八",style: TextStyle(
+                                    fontSize: 8, color: Color.fromRGBO(0, 0, 0, .26))),
                                 Icon(Icons.brightness_1,
                                     size: 4, color: Colors.pink),
                               ],
@@ -385,12 +387,12 @@ class _EmailScreenState extends State<EmailScreen>
                               minHeight: 56,
                             ),
                           ),
-                          Positioned(
-                            left: 8,
-                            top: 4,
-                            child: Icon(Icons.beach_access,
-                                size: 16, color: Colors.lightGreen),
-                          ),
+//                          Positioned(
+//                            left: 8,
+//                            top: 4,
+//                            child: Icon(Icons.beach_access,
+//                                size: 16, color: Colors.lightGreen),
+//                          ),
                           Container(
                             child: Column(
                               children: <Widget>[
@@ -402,7 +404,9 @@ class _EmailScreenState extends State<EmailScreen>
                                     style: TextStyle(
                                         fontSize: 18,
                                         fontWeight: FontWeight.bold,
-                                        color: Color.fromRGBO(0, 0, 0, .26))),
+                                        color: Color.fromRGBO(0, 0, 0, .54))),
+                                Text("初九",style: TextStyle(
+                                    fontSize: 8, color: Color.fromRGBO(0, 0, 0, .26))),
                                 Icon(Icons.brightness_1,
                                     size: 4, color: Colors.pink),
                               ],
@@ -426,7 +430,9 @@ class _EmailScreenState extends State<EmailScreen>
                                     style: TextStyle(
                                         fontSize: 18,
                                         fontWeight: FontWeight.bold,
-                                        color: Color.fromRGBO(0, 0, 0, .26))),
+                                        color: Color.fromRGBO(0, 0, 0, .54))),
+                                Text("初十",style: TextStyle(
+                                    fontSize: 8, color: Color.fromRGBO(0, 0, 0, .26))),
                                 Icon(Icons.brightness_1,
                                     size: 4, color: Colors.transparent),
                               ],
